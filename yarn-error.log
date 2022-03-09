@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\IRAIDA\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add date-fns
+
+PATH: 
+  C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\IRAIDA\Desktop\LERN-app-reminder\node_modules\.bin;C:\Users\IRAIDA\Desktop\ConEmuPack.210314\ConEmu\Scripts;C:\Users\IRAIDA\Desktop\ConEmuPack.210314;C:\Users\IRAIDA\Desktop\ConEmuPack.210314\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Users\IRAIDA\Desktop\Sublime Text Build 3211;C:\xampp\php;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\bat;C:\Program Files\Neovim\bin;C:\Users\IRAIDA\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\IRAIDA\AppData\Local\Programs\Python\Python38-32\;C:\Users\IRAIDA\.dotnet\tools;C:\Users\IRAIDA\AppData\Roaming\Composer\vendor\bin;C:\Users\IRAIDA\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  13.14.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.19.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+
+npm manifest: 
+  {
+    "name": "LERN-app-reminder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "serv": "nodemon src/index.js --ignore task-db.json",
+      "parcel": "parcel src/app/index.html -d src/public --no-source-maps"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "connect-logger": "0.0.1",
+      "express": "^4.17.2",
+      "lowdb": "^1.0.0",
+      "nodemon": "^2.0.15",
+      "o-clock": "^0.1.2",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "uuid": "^8.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

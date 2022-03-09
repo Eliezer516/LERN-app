@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  background: #9E9E9E;
+  padding: 15px;
+}
+.navbar button {
+  padding: 5px;
+  background: green;
+  border: none;
+  outline: none;
+}

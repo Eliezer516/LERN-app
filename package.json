@@ -1,0 +1,28 @@
+{
+  "name": "LERN-app-reminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serv": "nodemon src/index.js --ignore task-db.json --ignore src/app/",
+    "parcel": "parcel src/app/index.html -d src/public --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "express": "^4.17.2",
+    "lowdb": "^1.0.0",
+    "open-props": "^1.1.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "sass": "^1.48.0"
+  }
+}
